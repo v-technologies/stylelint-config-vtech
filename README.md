@@ -16,6 +16,6 @@ Configure stylelint by adding `.stylelintrc` at the root of your project:
 
 ```json
 {
-    "extends": "vtech"
+    "extends": "stylelint-config-vtech"
 }
 ```

@@ -80,7 +80,6 @@ module.exports = {
 		'selector-list-comma-space-after': 'always-single-line',
 		'selector-list-comma-space-before': 'never',
 		'selector-no-id': true,
-		'selector-no-universal': true,
 		'selector-pseudo-element-colon-notation': 'single',
 		'string-no-newline': true,
 		'string-quotes': 'single',

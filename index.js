@@ -70,7 +70,14 @@ module.exports = {
 				]
 			}
 		],
-		'rule-non-nested-empty-line-before': 'always',
+		'rule-non-nested-empty-line-before': [
+			'always',
+			{
+				'ignore': [
+					'after-comment'
+				]
+			}
+		],
 		'selector-class-pattern': '^[a-zA-Z0-9-]+$',
 		'selector-combinator-space-after': 'always',
 		'selector-combinator-space-before': 'always',

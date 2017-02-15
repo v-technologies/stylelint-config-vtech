@@ -7,6 +7,6 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^5.0.0"
+    "stylelint": "^7.0.0"
   }
 }

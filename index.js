@@ -6,7 +6,6 @@ module.exports = {
 		'block-closing-brace-newline-after': 'always',
 		'block-closing-brace-newline-before': 'always',
 		'block-no-empty': true,
-		'block-no-single-line': true,
 		'block-opening-brace-newline-after': 'always',
 		'block-opening-brace-space-before': 'always',
 		'color-hex-case': 'lower',
@@ -45,39 +44,33 @@ module.exports = {
 		'function-url-quotes': 'single',
 		'function-whitespace-after': 'always',
 		'indentation': 'tab',
+		'length-zero-no-unit': true,
 		'max-empty-lines': 3,
 		'max-line-length': 80,
 		'max-nesting-depth': 3,
 		'media-feature-colon-space-after': 'always',
 		'media-feature-colon-space-before': 'never',
-		'media-feature-no-missing-punctuation': true,
+		'media-feature-parentheses-space-inside': 'never',
 		'media-feature-range-operator-space-after': 'always',
 		'media-feature-range-operator-space-before': 'always',
 		'media-query-list-comma-newline-after': 'always-multi-line',
 		'media-query-list-comma-newline-before': 'never-multi-line',
 		'media-query-list-comma-space-after': 'always-single-line',
 		'media-query-list-comma-space-before': 'never',
-		'media-query-parentheses-space-inside': 'never',
 		'no-descending-specificity': true,
 		'no-duplicate-selectors': true,
 		'no-eol-whitespace': true,
 		'no-invalid-double-slash-comments': true,
-		'no-missing-eof-newline': true,
+		'no-missing-end-of-source-newline': true,
 		'no-unknown-animations': true,
 		'number-leading-zero': 'always',
 		'number-no-trailing-zeros': true,
-		'number-zero-length-no-unit': true,
-		'root-no-standard-properties': true,
-		'rule-nested-empty-line-before': [
-			'always', {
-				'except': [
-					'first-nested'
-				]
-			}
-		],
-		'rule-non-nested-empty-line-before': [
+		'rule-empty-line-before': [
 			'always',
 			{
+				'except': [
+					'first-nested'
+				],
 				'ignore': [
 					'after-comment'
 				]

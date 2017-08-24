@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-vtech",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "The stylelint config used at V-Technologies",
   "author": "Félix Girault <felix@vtech.fr>",
   "repository": "v-technologies/stylelint-config-vtech",

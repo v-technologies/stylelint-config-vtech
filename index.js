@@ -41,7 +41,7 @@ module.exports = {
 		'function-linear-gradient-no-nonstandard-direction': true,
 		'function-parentheses-newline-inside': 'always-multi-line',
 		'function-parentheses-space-inside': 'never-single-line',
-		'function-url-quotes': 'single',
+		'function-url-quotes': 'always',
 		'function-whitespace-after': 'always',
 		'indentation': 'tab',
 		'length-zero-no-unit': true,

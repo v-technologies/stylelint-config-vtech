@@ -1,12 +1,12 @@
 {
   "name": "stylelint-config-vtech",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "The stylelint config used at V-Technologies",
   "author": "Félix Girault <felix@vtech.fr>",
   "repository": "v-technologies/stylelint-config-vtech",
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "stylelint": "^7.0.0"
+    "stylelint": "^12.0.0"
   }
 }
